@@ -34,7 +34,8 @@ A line plot showing CPU utilization over the course of matrix multiplication exp
 ### 2. CPU USUAGE vs Number of Threads:
 
 ![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/31bd1867-f1ee-4d2a-973f-6150e4190f8b)
-
+![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/ac34c513-72f9-4979-bf2b-edc408695444)
+![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/504e321b-6b0a-4252-99dc-c817ed63b13d)
 
 
 From the results obtained, we can draw the following conclusions:
