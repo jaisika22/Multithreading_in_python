@@ -42,4 +42,4 @@ A line plot showing CPU utilization over the course of matrix multiplication exp
 From the results obtained, we can draw the following conclusions:
 
 1. As the number of threads increases, the time taken for matrix multiplication generally decreases, up to a certain point. Beyond that point, the overhead of thread creation and management may outweigh the benefits of parallelism.
-2. CPU usage increases as the number of threads increases, as expected. However, it's essential to note that the distribution of CPU usage across cores may vary depending on the system architecture and workload.
+2. CPU usage decreases as the number of threads increases, as expected. However, it's essential to note that the distribution of CPU usage across cores may vary depending on the system architecture and workload.
