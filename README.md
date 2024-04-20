@@ -10,8 +10,7 @@ CPU Usage: Percentage of CPU being used.
 
 ## Result DataFrame
 
-   
-      Threads    Time Taken(Sec)    CPU Usage(%)
+S.no.  Threads    Time Taken(Sec)    CPU Usage(%)
 0        1          0.063740          11.51
 1        2          0.063100          11.07
 2        3          0.059579          11.28
