@@ -2,13 +2,13 @@
 
 Demonstrating matrix multiplication with multithreading. It calculates the product of 100 random matrices of size 1000x1000 with a constant matrix of the same size using multiple threads. It also measures the time taken and CPU usage for different numbers of threads.
 
-##Results Interpretation
+## Results Interpretation
 
 Time Taken (Sec): Indicates the time taken for matrix multiplication in seconds. Lower values indicate better performance.
 Number of Threads: The number of threads used for matrix multiplication. Higher values may improve performance up to a certain point, depending on the system's capabilities.
 CPU Usage: Percentage of CPU being used.
 
-##Result DataFrame
+## Result DataFrame
 
    
       Threads    Time Taken(Sec)    CPU Usage(%)
@@ -23,7 +23,7 @@ CPU Usage: Percentage of CPU being used.
 8        9          0.059127          11.01
 9       10          0.061496          11.02
 
-###Graphical Results
+### Graphical Results
 ### 1. Cores Utilization: 
 A line plot showing CPU utilization over the course of matrix multiplication experiments. This visualization provides insights into how effectively CPU cores are utilized during multi-threaded computation tasks.
 
