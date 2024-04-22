@@ -28,13 +28,17 @@ CPU Usage: Percentage of CPU being used.
 ### 1. Cores Utilization: 
 A line plot showing CPU utilization over the course of matrix multiplication experiments. This visualization provides insights into how effectively CPU cores are utilized during multi-threaded computation tasks.
 
-![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/3a2f9075-e0e3-4275-abd5-b8706b691cb6)
+![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/62a34c8a-b2e4-4b5b-a260-3f4dc2ef17dd)
+
+
 
 
 
 ### 2. CPU USUAGE vs Number of Threads:
 
-![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/31bd1867-f1ee-4d2a-973f-6150e4190f8b)
+![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/d6326a5c-0fb8-41fe-8f67-fba738cbb055)
+
+
 ![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/ac34c513-72f9-4979-bf2b-edc408695444)
 ![image](https://github.com/jaisika22/Multithreading_in_python/assets/107528387/504e321b-6b0a-4252-99dc-c817ed63b13d)
 
@@ -42,4 +46,4 @@ A line plot showing CPU utilization over the course of matrix multiplication exp
 From the results obtained, we can draw the following conclusions:
 
 1. As the number of threads increases, the time taken for matrix multiplication generally decreases, up to a certain point. Beyond that point, the overhead of thread creation and management may outweigh the benefits of parallelism.
-2. CPU usage decreases as the number of threads increases, as expected. However, it's essential to note that the distribution of CPU usage across cores may vary depending on the system architecture and workload.
+2. CPU usage decreases as the number of threads increases, as expected but after a certain number of threads, it starts increasing. However, it's essential to note that the distribution of CPU usage across cores may vary depending on the system architecture and workload.
